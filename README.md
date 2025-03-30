@@ -1,2 +1,3 @@
 # estudo-typescript
-Repositório de estudos feitos para aprofundar conhecimento com Typescript.
+
+Repositório de estudos feitos para aprofundar conhecimento de Typescript.
