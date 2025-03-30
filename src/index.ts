@@ -1,3 +1,3 @@
-const x: number = 3;
-
-console.log("x:", x * 7);
+import "./tipos/variaveis";
+import "./tipos/array";
+import "./tipos/enum";
