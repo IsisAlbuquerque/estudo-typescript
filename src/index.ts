@@ -1,3 +1,4 @@
+/* ITRODUÇÃO A TIPOS */
 // import "./tipos/variaveis";
 // import "./tipos/array";
 // import "./tipos/enum";
@@ -10,4 +11,9 @@
 // import "./tipos/uniao";
 // import "./tipos/never";
 // import "./tipos/null";
-import "./tipos/desafioFinal";
+// import "./tipos/desafioFinal";
+
+/* ORIENTAÇÃO A OBJETO */
+// import "./oo/classe_1";
+// import "./oo/classe_2";
+import "./oo/desafio_produto";
