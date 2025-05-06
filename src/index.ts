@@ -16,4 +16,10 @@
 /* ORIENTAÇÃO A OBJETO */
 // import "./oo/classe_1";
 // import "./oo/classe_2";
-import "./oo/desafio_produto";
+// import "./oo/desafio_produto";
+// import "./oo/desafio_estatico";
+
+/* INTERFACES */
+// import "./interfaces/usuario";
+// import "./interfaces/flexivel";
+import "./interfaces/funcao";

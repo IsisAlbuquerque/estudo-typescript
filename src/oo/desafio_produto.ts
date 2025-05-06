@@ -1,10 +1,11 @@
+import Validador from "./validador";
+
 class Produto {
   constructor(readonly id: number, readonly nome: string, readonly preco: number, readonly desconto: number = 0) {
-    if (id <= 0) throw new Error("ID inválido!");
-    if (nome.length < 2) throw new Error("Nome muito pequeno!");
-    if (nome.length > 100) throw new Error("Nome muito grande!");
-    if (preco <= 0) throw new Error("Preco inválido!");
-    if (desconto < 0 || desconto > 0.8) throw new Error("Desconto inválido!");
+    Validador.maiorQueZero(id, "ID inválido!"); //Validador é o membro estático desta classe, ele pode ser chamado sem instanciar a classe
+    Validador.tamanhoEntre(nome, 2, 250, "Nome inválido!");
+    Validador.maiorQueZero(preco, "Preço inválido!");
+    Validador.entre(desconto, 0, 0.8, "Desconto inválido!");
   }
 
   // Se não precisa de parâmetro, pode-se fazer um getter; do contrário, faça um método!
